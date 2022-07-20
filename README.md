@@ -30,11 +30,16 @@ This is a simple API built using gin gonic (Golang) . This application is used t
  ```
  go get -u github.com/gin-gonic/gin
  ```
- 3. Vist the Given link and hit Greet button
+ 3. Start the server
+```
+cd .\Backend\  
+go run main.go 
+```
+ 4. Vist the Given link and hit Greet button
 ```
 http://127.0.0.1:5500/Frontend/index.html
 ```
- 4. Regular Expression used to validate Email Address
+ 5. Regular Expression used to validate Email Address
  ```
  '^[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,4}$'
  ```
